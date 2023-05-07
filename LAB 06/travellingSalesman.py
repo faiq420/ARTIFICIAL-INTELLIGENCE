@@ -6,7 +6,6 @@ class Graph:
         self.numberOfVertices = numberOfVertices
         self.adjacencyMatrix = [[0 for j in range(numberOfVertices)] for i in range(numberOfVertices)]
 
-
     def insertWeight(self, x, y, weight):
         self.adjacencyMatrix[x][y] = weight
         self.adjacencyMatrix[y][x] = weight
