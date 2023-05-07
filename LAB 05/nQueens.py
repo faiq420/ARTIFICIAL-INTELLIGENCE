@@ -118,8 +118,6 @@ class Board:
             square = self.board[row][i]
             square.isAvailable = False
             square.threatened -= 1
-
-        for i in range(n):
             square = self.board[i][column]
             square.isAvailable = False
             square.threatened -= 1
