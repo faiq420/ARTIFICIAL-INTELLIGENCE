@@ -41,19 +41,18 @@
 # print(pair)
 # shapes= ['circle','square','triangle','circle']
 # setShapes=set(shapes)
-# print(shapesTuple)
-# print(setOfShapes)
-# print('circle' in setOfShapes )
-# print('circle' in setOfShapes )
-# setOfShapes=set(['circle','square','triangle'])
-# setOfShapes.add("polygon")
+# print(setShapes)
+# print(shapes)
+# print('circle' in setShapes )
+# setShapes=set(['circle','square','triangle'])
+# setShapes.add("polygon")
 # setOfFavoriteShapes=set(['circle','square','rhombus'])
-# print(setOfShapes & setOfFavoriteShapes,end=" ")
-# print(setOfShapes | setOfFavoriteShapes)
-# print(studentIds['turing'])
-# studentIds['knuth']=['name','fname']
-# print(studentIds)
+# print(setShapes & setOfFavoriteShapes,end=" ")
+# print(setShapes | setOfFavoriteShapes)
 # studentIds = {'knuth': 42.0, 'turing': 56.0, 'nash': 92.0 }
+# studentIds['knuth']=['name','fname']
+# print(studentIds['turing'])
+# print(studentIds)
 # print(studentIds.items(),len(studentIds))
 
 
